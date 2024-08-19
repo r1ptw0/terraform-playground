@@ -1,0 +1,10 @@
+{
+    "image": "docker.io/robinmordasiewicz/devcontainer:latest",
+    "initializeCommand": "docker pull docker.io/robinmordasiewicz/devcontainer:latest",
+    "name": "terraform-playground",
+    "runArgs": [
+      "--name=terraform-playground",
+      "--hostname=terraform-playground"
+        ]
+  }
+  
