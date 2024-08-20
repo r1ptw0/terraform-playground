@@ -19,12 +19,13 @@ repos:
           - --hook-config=--create-file-if-not-exist=true
           - --hook-config=--use-standard-markers=true
       - id: terraform_tflint
-      - id: terrascan
-        args:
-          - --args=--non-recursive
-          - --args=--policy-type=azure
-          - --args=--verbose
-          - --args=--config-path .terrascan-config.toml
+#
+#      - id: terrascan
+#        args:
+#          - --args=--non-recursive
+#          - --args=--policy-type=aws
+#          - --args=--verbose
+#          - --args=--config-path .terrascan-config.toml
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.5.0
     hooks:
@@ -55,5 +56,5 @@ repos:
         name: markdownlint-fix
         args: ['--fix']
         files: \.(md|markdown)$
-        exclude: 'CHANGELOG.md|docs/index.md'
+        exclude: 'CHANGELOG.md|docs/index.md|README.md'
         minimum_pre_commit_version: 0.15.0

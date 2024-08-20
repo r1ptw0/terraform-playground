@@ -1,8 +1,9 @@
 locals {
-  s3_buckets = {
-    "${var.prefix}-s3-bucket" = {
+  vpcs = {
+    for region in var.regions :
+    "${var.prefix}-${region}-vpc" => {
       tags = {
-        name = "${var.prefix}-s3-bucket"
+        name = "${var.prefix}-${region}-vpc"
       }
     }
   }
