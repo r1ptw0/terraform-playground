@@ -1,4 +1,6 @@
-# terrafrom-playground
+# terraform-playground
+
+-ipsum lorem
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
