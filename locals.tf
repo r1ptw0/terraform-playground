@@ -27,3 +27,13 @@ int_subnets = {
     }
   }
 }
+
+
+locals {
+regions = {
+for region in var.regions :
+  region => {
+    region = region
+  }
+}
+}
