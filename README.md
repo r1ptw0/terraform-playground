@@ -31,7 +31,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_prefix"></a> [prefix](#input\_prefix) | n/a | `string` | n/a | yes |
+| <a name="input_prefix"></a> [prefix](#input\_prefix) | n/a | `string` | `"rn"` | no |
 | <a name="input_regions"></a> [regions](#input\_regions) | n/a | `list(string)` | <pre>[<br>  "ca-central-1",<br>  "ca-east-1",<br>  "us-east-1"<br>]</pre> | no |
 | <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | n/a | `string` | `"10.0.0.0/16"` | no |
 
