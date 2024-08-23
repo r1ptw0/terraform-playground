@@ -1,8 +1,8 @@
 locals {
   vpcs = {
-    for environment in var.environments :
+    for idx, environment in var.environments :
     "${var.prefix}-${environment}-vpc" => {
-      cidr_block = var.vpc_cidr
+      cidr_block = var.vpc_cidrs[idx]
       tags = {
         Name = "${var.prefix}-${environment}-vpc"
       }
