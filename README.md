@@ -33,7 +33,6 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_environments"></a> [environments](#input\_environments) | n/a | `list(string)` | <pre>[<br>  "sec",<br>  "prod1",<br>  "dev1",<br>  "prod2",<br>  "dev2"<br>]</pre> | no |
 | <a name="input_prefix"></a> [prefix](#input\_prefix) | n/a | `string` | `"rn"` | no |
-| <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | n/a | `string` | `"10.0.0.0/16"` | no |
 
 ## Outputs
 
