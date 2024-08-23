@@ -3,6 +3,7 @@ locals {
     for idx, environment in var.environments :
     "${var.prefix}-${environment}-vpc" => {
       cidr_block = "10.${idx}.0.0/16"
+      #      cidr_block = var.vpc_cidrs[idx]
       tags = {
         Name = "${var.prefix}-${environment}-vpc"
       }
