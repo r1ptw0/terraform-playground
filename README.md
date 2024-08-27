@@ -3,9 +3,9 @@
 ## Summary
 
 The intention of this Repo is to demonstrate IaC (Infrastructure As Code) principles and "alright" practices.
-This template was not created or functional or production use-cases, use at your own discresion. This is a learning tool.
+This template was not created for functional/production use-cases, use at your own discresion. This is a learning tool.
 
-The key principle here is to demonstrate a few things:
+The key principle here is to demonstrate the following:
 
 1. IaC can be used to create a consistent and repeatable environment, with templates being a "single source of truth".
 2. To answer why someone would choose to use templates than building it all by hand. (revise?)
