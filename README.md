@@ -58,10 +58,6 @@ Add more values into environments and run "terraform apply" to see the new envir
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | 4.67.0 |
 
-## Modules
-
-No modules.
-
 ## Resources
 
 | Name | Type |
@@ -70,15 +66,4 @@ No modules.
 | [aws_vpc.vpc](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc) | resource |
 | [aws_availability_zones.available](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/availability_zones) | data source |
 
-## Inputs
-
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_environments"></a> [environments](#input\_environments) | n/a | `list(string)` | <pre>[<br>  "prod1",<br>  "dev1",<br>  "sec1"<br>]</pre> | no |
-| <a name="input_prefix"></a> [prefix](#input\_prefix) | n/a | `string` | `"AcmeCorp"` | no |
-| <a name="input_region"></a> [region](#input\_region) | n/a | `string` | `"ca-central-1"` | no |
-
-## Outputs
-
-No outputs.
 <!-- END_TF_DOCS -->
