@@ -1,6 +1,6 @@
 # terraform-playground
 
-## Summery
+## Summary
 
 The intention of this Repo is to demonstrate IaC (Infrastructure As Code) principles and "alright" practices.
 This template was not created or functional or production use-cases, use at your own discresion. This is a learning tool.
