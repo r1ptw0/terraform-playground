@@ -1,7 +1,20 @@
-variable "regions" {
-  type    = list(string)
-  default = ["ca-central-1", "ca-east-1", "us-east-1"]
+
+variable "region" {
+  type    = string
+  default = "ca-central-1"
 }
+
+variable "environments" {
+  type    = list(string)
+  default = ["prod1"]
+}
+
 variable "prefix" {
-  type = string
+  type    = string
+  default = "AcmeCorp"
+}
+
+variable "vpc_cidrs" {
+  type    = list(string)
+  default = ["10.0.0.0/16", "10.1.0.0/16"]
 }
